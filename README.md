@@ -15,6 +15,13 @@ This project performs basic data visualization on the Netflix Shows dataset usin
 pip install -r requirements.txt
 python main.py
 
+
+This treats your image markdown as **code**, not as actual image tags.
+
+---
+
+### ✅ Correct (no triple backticks):
+```markdown
 ## 📊 Visualizations from Full Dataset
 
 ### 🎭 Genre Distribution
