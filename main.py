@@ -9,7 +9,7 @@ from visualizations.release_years import plot_release_trend
 from visualizations.country_distribution import plot_country_distribution
 
 def main():
-    path = "data/netflix_titles.csv"  # Place the CSV file here
+    path = "data/netflix_titles_sample.csv"
     df = load_data(path)
     df_clean = clean_data(df)
 
