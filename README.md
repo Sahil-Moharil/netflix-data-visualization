@@ -9,19 +9,6 @@ This project performs basic data visualization on the Netflix Shows dataset usin
 - `visualizations/`: different types of visual plots
 - `main.py`: entry script
 
-## Run
-
-```bash
-pip install -r requirements.txt
-python main.py
-
-
-This treats your image markdown as **code**, not as actual image tags.
-
----
-
-### ✅ Correct (no triple backticks):
-```markdown
 ## 📊 Visualizations from Full Dataset
 
 ### 🎭 Genre Distribution
@@ -35,3 +22,10 @@ This treats your image markdown as **code**, not as actual image tags.
 
 📌 Note: The visualizations above were generated using the full Netflix dataset (available on [Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)).  
 For repository size compliance, only a sample of 100 rows is included.
+
+## Run
+
+```bash
+pip install -r requirements.txt
+python main.py
+
